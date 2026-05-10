@@ -1,0 +1,9 @@
+2026-05-04 23:42:17,796 [INFO] scanner - Scanner 初始化完成，共 856 个标的
+2026-05-04 23:42:17,796 [INFO] scanner - 配置: MAX_EXPIRY_DAYS=210, MIN_VOLUME=1, TURNOVER_ABS_THRESHOLD=$500,000
+2026-05-04 23:42:17,796 [INFO] scan_package.checkpoint - 任务状态：共 856 个标的，已完成 0 个，待处理 856 个
+2026-05-04 23:42:17,796 [INFO] scanner - 开始全量扫描: 待处理 856 个标的
+2026-05-04 23:42:17,796 [INFO] scanner - 已跳过（断点续跑）: 0 个
+2026-05-04 23:42:17,796 [INFO] scanner - [1/856] US.AAPL  完成率 0%  预计剩余 计算中…
+2026-05-04 23:42:17,796 [INFO] scanner - ──────────────────────────────────────────────────
+2026-05-04 23:42:17,797 [INFO] scanner - 处理标的: US.AAPL
+2026-05-04 23:42:17,797 [INFO] scan_package.connection - 连接 OpenD  127.0.0.1:11111 ...

@@ -1,0 +1,136 @@
+2026-05-09 22:26:38 - option_anomaly_system - INFO - 
+======================================================================
+2026-05-09 22:26:38 - option_anomaly_system - INFO - 期权异常系统 - 分析循环
+2026-05-09 22:26:38 - option_anomaly_system - INFO - ======================================================================
+
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 用户输入时间范围: 2026-05-07 到 2026-05-09
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 检测到 7 个交易日期
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 可用日期范围: 2026-05-01 到 2026-05-09
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 在指定范围内找到 3 个交易日期
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 
+生成的日期对 (start, end):
+2026-05-09 22:27:00 - option_anomaly_system - INFO -   1. (2026-05-09, 2026-05-09)
+2026-05-09 22:27:00 - option_anomaly_system - INFO -   2. (2026-05-08, 2026-05-09)
+2026-05-09 22:27:00 - option_anomaly_system - INFO -   3. (2026-05-07, 2026-05-09)
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 
+======================================================================
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 开始循环分析
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ======================================================================
+
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 
+[1/3] 分析日期对: (2026-05-09, 2026-05-09)
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ----------------------------------------------------------------------
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 开始加载数据: 2026-05-09 到 2026-05-09
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 成功加载 7 种数据类型，共 117 条记录
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 数据量统计: {'deep_itm_all': 117, 'deep_itm_call': 96, 'deep_itm_put': 39}
+2026-05-09 22:27:00 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 已保存 all 报告: V:\pythonproject20240816\scanner\output\important\2026-05-09_to_2026-05-09\report_all_2026-05-09_to_2026-05-09.csv
+2026-05-09 22:27:00 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 已保存 call 报告: V:\pythonproject20240816\scanner\output\important\2026-05-09_to_2026-05-09\report_call_2026-05-09_to_2026-05-09.csv
+2026-05-09 22:27:00 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 已保存 put 报告: V:\pythonproject20240816\scanner\output\important\2026-05-09_to_2026-05-09\report_put_2026-05-09_to_2026-05-09.csv
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 分析完成，已生成 3 个报告
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 该日期对分析完成
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 
+[2/3] 分析日期对: (2026-05-08, 2026-05-09)
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ----------------------------------------------------------------------
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 开始加载数据: 2026-05-08 到 2026-05-09
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 成功加载 7 种数据类型，共 222 条记录
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 数据量统计: {'deep_itm_all': 222, 'deep_itm_call': 162, 'deep_itm_put': 93}
+2026-05-09 22:27:00 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 已保存 all 报告: V:\pythonproject20240816\scanner\output\important\2026-05-08_to_2026-05-09\report_all_2026-05-08_to_2026-05-09.csv
+2026-05-09 22:27:00 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 已保存 call 报告: V:\pythonproject20240816\scanner\output\important\2026-05-08_to_2026-05-09\report_call_2026-05-08_to_2026-05-09.csv
+2026-05-09 22:27:00 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 已保存 put 报告: V:\pythonproject20240816\scanner\output\important\2026-05-08_to_2026-05-09\report_put_2026-05-08_to_2026-05-09.csv
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 分析完成，已生成 3 个报告
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 该日期对分析完成
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 
+[3/3] 分析日期对: (2026-05-07, 2026-05-09)
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ----------------------------------------------------------------------
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 开始加载数据: 2026-05-07 到 2026-05-09
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 成功加载 7 种数据类型，共 292 条记录
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 数据量统计: {'deep_itm_all': 292, 'deep_itm_call': 224, 'deep_itm_put': 113}
+2026-05-09 22:27:00 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 已保存 all 报告: V:\pythonproject20240816\scanner\output\important\2026-05-07_to_2026-05-09\report_all_2026-05-07_to_2026-05-09.csv
+2026-05-09 22:27:00 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 已保存 call 报告: V:\pythonproject20240816\scanner\output\important\2026-05-07_to_2026-05-09\report_call_2026-05-07_to_2026-05-09.csv
+2026-05-09 22:27:00 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 已保存 put 报告: V:\pythonproject20240816\scanner\output\important\2026-05-07_to_2026-05-09\report_put_2026-05-07_to_2026-05-09.csv
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 分析完成，已生成 3 个报告
+2026-05-09 22:27:00 - option_anomaly_system - INFO - ✓ 该日期对分析完成
+2026-05-09 22:27:00 - option_anomaly_system - INFO - 
+✓ 执行摘要已保存: V:\pythonproject20240816\scanner\output\important\execution_summary_20260509_222700.json
+2026-05-09 22:27:08 - option_anomaly_system - INFO - 
+======================================================================
+2026-05-09 22:27:08 - option_anomaly_system - INFO - ✓ 全部分析完成！
+2026-05-09 22:27:08 - option_anomaly_system - INFO - ======================================================================
+
+2026-05-09 22:29:38 - option_anomaly_system - INFO - 
+======================================================================
+2026-05-09 22:29:38 - option_anomaly_system - INFO - 期权异常系统 - 分析循环
+2026-05-09 22:29:38 - option_anomaly_system - INFO - ======================================================================
+
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 用户输入时间范围: 2026-05-04 到 2026-05-09
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 检测到 7 个交易日期
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 可用日期范围: 2026-05-01 到 2026-05-09
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 在指定范围内找到 5 个交易日期
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 
+生成的日期对 (start, end):
+2026-05-09 22:29:50 - option_anomaly_system - INFO -   1. (2026-05-09, 2026-05-09)
+2026-05-09 22:29:50 - option_anomaly_system - INFO -   2. (2026-05-08, 2026-05-09)
+2026-05-09 22:29:50 - option_anomaly_system - INFO -   3. (2026-05-07, 2026-05-09)
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 
+======================================================================
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 开始循环分析
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ======================================================================
+
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 
+[1/3] 分析日期对: (2026-05-09, 2026-05-09)
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ----------------------------------------------------------------------
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 开始加载数据: 2026-05-09 到 2026-05-09
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 成功加载 7 种数据类型，共 117 条记录
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 数据量统计: {'deep_itm_all': 117, 'deep_itm_call': 96, 'deep_itm_put': 39}
+2026-05-09 22:29:50 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 已保存 all 报告: V:\pythonproject20240816\scanner\output\important\2026-05-09_to_2026-05-09\report_all_2026-05-09_to_2026-05-09.csv
+2026-05-09 22:29:50 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 已保存 call 报告: V:\pythonproject20240816\scanner\output\important\2026-05-09_to_2026-05-09\report_call_2026-05-09_to_2026-05-09.csv
+2026-05-09 22:29:50 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 已保存 put 报告: V:\pythonproject20240816\scanner\output\important\2026-05-09_to_2026-05-09\report_put_2026-05-09_to_2026-05-09.csv
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 分析完成，已生成 3 个报告
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 该日期对分析完成
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 
+[2/3] 分析日期对: (2026-05-08, 2026-05-09)
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ----------------------------------------------------------------------
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 开始加载数据: 2026-05-08 到 2026-05-09
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 成功加载 7 种数据类型，共 222 条记录
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 数据量统计: {'deep_itm_all': 222, 'deep_itm_call': 162, 'deep_itm_put': 93}
+2026-05-09 22:29:50 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 已保存 all 报告: V:\pythonproject20240816\scanner\output\important\2026-05-08_to_2026-05-09\report_all_2026-05-08_to_2026-05-09.csv
+2026-05-09 22:29:50 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 已保存 call 报告: V:\pythonproject20240816\scanner\output\important\2026-05-08_to_2026-05-09\report_call_2026-05-08_to_2026-05-09.csv
+2026-05-09 22:29:50 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 已保存 put 报告: V:\pythonproject20240816\scanner\output\important\2026-05-08_to_2026-05-09\report_put_2026-05-08_to_2026-05-09.csv
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 分析完成，已生成 3 个报告
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 该日期对分析完成
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 
+[3/3] 分析日期对: (2026-05-07, 2026-05-09)
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ----------------------------------------------------------------------
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 开始加载数据: 2026-05-07 到 2026-05-09
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 成功加载 7 种数据类型，共 292 条记录
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 数据量统计: {'deep_itm_all': 292, 'deep_itm_call': 224, 'deep_itm_put': 113}
+2026-05-09 22:29:50 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 已保存 all 报告: V:\pythonproject20240816\scanner\output\important\2026-05-07_to_2026-05-09\report_all_2026-05-07_to_2026-05-09.csv
+2026-05-09 22:29:50 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 已保存 call 报告: V:\pythonproject20240816\scanner\output\important\2026-05-07_to_2026-05-09\report_call_2026-05-07_to_2026-05-09.csv
+2026-05-09 22:29:50 - option_anomaly_system - WARNING - 数据中不存在列 'moneyness_bucket'，可用列: ['stock_owner', 'trade_date', 'deep_turnover', 'deep_volume', 'deep_contracts', 'deep_oi_sum', 'deep_avg_churn', 'deep_max_churn', 'deep_avg_notional_churn', 'deep_avg_iv', 'deep_avg_delta', 'day_total_turnover', 'deep_turnover_share', 'is_churning']
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 已保存 put 报告: V:\pythonproject20240816\scanner\output\important\2026-05-07_to_2026-05-09\report_put_2026-05-07_to_2026-05-09.csv
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 分析完成，已生成 3 个报告
+2026-05-09 22:29:50 - option_anomaly_system - INFO - ✓ 该日期对分析完成
+2026-05-09 22:29:50 - option_anomaly_system - INFO - 
+✓ 执行摘要已保存: V:\pythonproject20240816\scanner\output\important\execution_summary_20260509_222950.json
+2026-05-09 22:30:08 - option_anomaly_system - INFO - 
+======================================================================
+2026-05-09 22:30:08 - option_anomaly_system - INFO - ✓ 全部分析完成！
+2026-05-09 22:30:08 - option_anomaly_system - INFO - ======================================================================
+
