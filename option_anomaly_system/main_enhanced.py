@@ -707,3 +707,4 @@ if __name__ == "__main__":
     summary = analysis_repeat_func(end_date,5)
     summary[summary['标的代码']=='US.QQQ']
     stock_data = quick_lookup_option_info('US.QQQ', df)
+    print(1)
